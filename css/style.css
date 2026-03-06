@@ -1,0 +1,37 @@
+body {
+    background-color: #637085;
+    color: #013038;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 50px;
+    line-height: 1.5;
+}
+
+h1 {
+    color: #000000;
+}
+
+h2 {
+    color: #000000;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+a {
+    color: #020507;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 300px;
+    border: 3px solid #010303;
+    border-radius: 8px;
+    margin: 15px 0;
+}
