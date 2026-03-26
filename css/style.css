@@ -1,18 +1,18 @@
 body {
-    background-color: #000000;
-    color: #000000;
+    background-color: #867e7e;
+    color: #947c7c;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 50px;
     line-height: 1.5;
 }
 
 h1 {
-    color: #000000;
+    color: #0e0b0b;
 }
 
 h2 {
     color: #000000;
-    border-bottom: 1px solid #cecece;
+    border-bottom: 1px solid #a07272;
     padding-bottom: 5px;
 }
 
@@ -23,10 +23,6 @@ ul {
 a {
     color: #000000;
     text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 img {
@@ -41,15 +37,16 @@ img {
 .sobre {
     background: rgb(127, 157, 247);
 }
-.hobies {
+.links {
   background: rgb(136, 238, 228);
 }
 .imagem {
   background: rgb(252, 231, 115);
 }
-.links {
+.hobies {
   background: rgb(201, 120, 255);
 }
 a:hover {
     color: rgb(11, 15, 252);
+    text-decoration: underline;
 }
