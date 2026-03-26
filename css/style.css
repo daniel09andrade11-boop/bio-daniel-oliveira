@@ -35,3 +35,18 @@ img {
     border-radius: 8px;
     margin: 15px 0;
 }
+.titulo {
+  background: rgb(145, 25, 25);
+}
+.sobre {
+    background: rgb(42, 71, 158);
+}
+.hobies {
+  background: rgb(6, 82, 75);
+}
+.imagem {
+  background: rgb(216, 219, 21);
+}
+.links {
+  background: rgb(47, 2, 77);
+}
