@@ -1,6 +1,6 @@
 body {
-    background-color: #637085;
-    color: #013038;
+    background-color: #000000;
+    color: #000000;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 50px;
     line-height: 1.5;
@@ -12,7 +12,7 @@ h1 {
 
 h2 {
     color: #000000;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #cecece;
     padding-bottom: 5px;
 }
 
@@ -21,7 +21,7 @@ ul {
 }
 
 a {
-    color: #0d171f;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -31,22 +31,25 @@ a:hover {
 
 img {
     max-width: 300px;
-    border: 3px solid #072424;
+    border: 3px solid rgb(0, 0, 0);
     border-radius: 8px;
     margin: 15px 0;
 }
 .titulo {
-  background: rgb(145, 25, 25);
+  background: rgb(238, 127, 127);
 }
 .sobre {
-    background: rgb(42, 71, 158);
+    background: rgb(127, 157, 247);
 }
 .hobies {
-  background: rgb(6, 82, 75);
+  background: rgb(136, 238, 228);
 }
 .imagem {
-  background: rgb(216, 219, 21);
+  background: rgb(252, 231, 115);
 }
 .links {
-  background: rgb(47, 2, 77);
+  background: rgb(201, 120, 255);
+}
+a:hover {
+    color: rgb(11, 15, 252);
 }
