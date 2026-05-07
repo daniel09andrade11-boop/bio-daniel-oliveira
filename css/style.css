@@ -1,92 +1,58 @@
- body {
-    background-color: #2b2e41;
-    color: #e4e6eb;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 50px;
-    line-height: 1.5;
+ body{
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    color: #ffffff;
+header{
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
-h2 {
-    color: #cfd2ff;
-    border-bottom: 1px solid #44476a;
-    padding-bottom: 5px;
+nav{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 15px;
 }
 
-ul {
+nav a{
+    color: aqua;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+}
+
+section{
+    background-color: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+ul{
     padding-left: 20px;
 }
 
-a {
-    color: #8ab4f8;
-    text-decoration: none;
+img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+|
+.links a{
+    color: darkblue;
+    font-size: 18px;
 }
 
-a:hover {
-    color: #ffffff;
-    text-decoration: underline;
+footer{
+    background-color: #222;
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
 }
 
-img {
-    max-width: 300px;
-    border: 3px solid #44476a;
-    border-radius: 8px;
-    margin: 15px 0;
-}
-
-/* Seções com cores suaves e harmônicas */
-
-.titulo {
-    background: #444a7a;
-    padding: 10px;
-    border-radius: 8px;
-}
-
-.sobre {
-    background: #444a7a;
-    padding: 10px;
-    border-radius: 8px;
-}
-
-.links {
-    background: #444a7a;
-    padding: 10px;
-    border-radius: 8px;
-}
-
-.imagem {
-    background: #444a7a;
-    padding: 10px;
-    border-radius: 8px;
-}
-
-.hobbies {
-    background: #444a7a;
-    padding: 10px;
-    border-radius: 8px;
-}
-
-.curiosidades {
-    background: #444a7a;
-    padding: 10px;
-    border-radius: 8px;
-}
-body {
-    background-color: #2b2e41;
-    color: #e4e6eb;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-    display: flex;
-    justify-content: center; /* centraliza horizontal */
-    align-items: center;     /* centraliza vertical */
-    min-height: 100vh;       /* ocupa a tela toda */
-    margin: 0;
-}
-
-.container {
-    max-width: 800px;
-    width: 100%;
-}
